@@ -14,7 +14,6 @@ class ResinaEpoxi extends React.Component {
   }
 
   handleChange(event) {
-    // const resina = event.target.value / 2;
     event.preventDefault();
     this.setState({
       valueResina: event.target.value
@@ -23,7 +22,6 @@ class ResinaEpoxi extends React.Component {
         valueCatalisador: this.state.valueResina / 2
       })
     })
-    // this.setState = ({ valueCatalisador: resina });
   }
 
   handleClick() {
